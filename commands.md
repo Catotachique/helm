@@ -9,6 +9,11 @@ helm install my-nginx bitnami/nginx --version 19.0.4
 ## Uninstall the Helm Release
 helm uninstall <release name>
 
+## Fetches metadata for a given release
+helm get metadata <release name>
+
+## Values file for a named release
+helm get values <release name>
 
 
 # K3S
