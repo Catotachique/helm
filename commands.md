@@ -1,10 +1,8 @@
 ## Add repository
 helm repo add bitnami https://charts.bitnami.com/bitnami
 
-
 ## Install chart
 helm install my-nginx bitnami/nginx --version 19.0.4
-
 
 ## Uninstall the Helm Release
 helm uninstall <release name>
